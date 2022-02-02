@@ -1,0 +1,20 @@
+{
+  "svsix": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-svelte-app-svsix-142929-authRole",
+      "UnauthRoleArn": "arn:aws:iam::280268445914:role/amplify-svelte-app-svsix-142929-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::280268445914:role/amplify-svelte-app-svsix-142929-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-svelte-app-svsix-142929-deployment",
+      "UnauthRoleName": "amplify-svelte-app-svsix-142929-unauthRole",
+      "StackName": "amplify-svelte-app-svsix-142929",
+      "StackId": "arn:aws:cloudformation:eu-west-1:280268445914:stack/amplify-svelte-app-svsix-142929/280c6090-842c-11ec-8247-02b206e61ee7",
+      "AmplifyAppId": "d296ylkc1js7rj"
+    },
+    "categories": {
+      "auth": {
+        "svelteapp951a096b": {}
+      }
+    }
+  }
+}
