@@ -19,6 +19,7 @@
   }
 </script>
 <div>
+	<h2>Confirm using code in email</h2>
 	<!-- <pre>{JSON.stringify($store, null, 2)}</pre> -->
 	<form on:submit|preventDefault={handleSubmit}>
 		<label>
@@ -31,7 +32,7 @@
 		</label>
 		<button type="submit">Submit</button>
 	</form>
-	<h1>Confirmed</h1>
+	<h2>Status</h2>
 	{#await promise}
 	<p>Confirming...</p>
 	{:catch error}

@@ -26,7 +26,6 @@
 	{:catch error}
 	<p class="errorMessage">Something went wrong: {error.message}</p>
 	{/await}
-  <pre>{JSON.stringify($store, null, 2)}</pre>
   <form on:submit|preventDefault={handleSubmit}>
 	<label>
 	  Email:

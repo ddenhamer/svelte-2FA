@@ -1,8 +1,8 @@
 <!-- Main.svelte -->
 <script>
-  import { store } from './stores/auth.js'
+  import { store, signedIn} from './stores/auth.js'
   function logout() {
-    $store = null
+    $signedIn = false
   }
 </script>
 <main>

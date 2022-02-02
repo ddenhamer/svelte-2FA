@@ -20,7 +20,7 @@
   }
 </script>
 <div>
-<h1>Sign Up</h1>
+<h1>Sign Up to the Library</h1>
 
   <!-- <pre>{JSON.stringify($store, null, 2)}</pre> -->
   <form on:submit|preventDefault={handleSubmit}>
